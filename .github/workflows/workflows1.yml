@@ -10,7 +10,7 @@ jobs:
       - name: get-code
         uses: actions/checkout@v3
       - name: load and catch dependencies
-        run: npm ci
+        run: npm install
          
 
  
