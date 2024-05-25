@@ -1,3 +1,7 @@
-- name: github workflows
-on 
-push
+name: Deployment
+on:
+ push:
+    branches:
+        - Upvote
+jobs:
+ 
