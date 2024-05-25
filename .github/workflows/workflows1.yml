@@ -1,8 +1,8 @@
 name: Deployment
 on:
  push:
-    branches:
-        - gh-custom-actions
+    #branches:
+        #- gh-custom-actions
 jobs:
   lint:
     runs-on: ubuntu-latest
