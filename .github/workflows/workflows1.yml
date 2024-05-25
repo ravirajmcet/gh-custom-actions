@@ -1,0 +1,19 @@
+name: Deployment
+on:
+ push:
+    branches:
+        - Upvote
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: get-code
+        uses: actions/checkout@v3
+      - name: load and catch dependencies
+        uses: ./.github/actions/cache-deps
+      - name: lint code
+        run: npm run lint
+         
+
+ 
+    

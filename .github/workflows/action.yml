@@ -1,7 +1,0 @@
-name: Deployment
-on:
- push:
-    branches:
-        - Upvote
-jobs:
- 
