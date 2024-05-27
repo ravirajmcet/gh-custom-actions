@@ -4,7 +4,7 @@ on:
     #branches:
         #- gh-custom-actions
 jobs:
-  lint:
+  InstallNPM:
     runs-on: ubuntu-latest
     steps:
       - name: get-code
